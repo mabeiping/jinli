@@ -1,0 +1,23 @@
+.dateUtil {
+  display: flex;
+  text-align: center;
+
+  .date1 {
+    flex: 1;
+    border: .1rem solid #ececec;
+  }
+
+  .dateStr {
+    display: -webkit-box; /*兼容FSafari、Chrome*/
+    -webkit-box-align: center; /*兼容FSafari、Chrome */
+    -webkit-box-pack: center; /*兼容FSafari、Chrome */
+
+    display: -moz-box; /*兼容Firefox*/
+    -moz-box-align: center; /*兼容Firefox*/
+    -moz-box-pack: center; /*兼容Firefox*/
+  }
+}
+
+.dateUtil:nth-child(even) {
+  background-color: #fafafa;
+}

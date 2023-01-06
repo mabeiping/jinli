@@ -1,0 +1,47 @@
+.countDownTimer {
+  width: 30rem;
+  display: flex;
+  font-size: 1.3rem;
+
+  .unit {
+    margin: auto;
+    color: #afafaf;
+  }
+
+  .countDown_outer {
+    display: inline-flex;
+
+    .time {
+      margin: auto;
+      color: red;
+    }
+
+    #myProgressBar {
+      width: 10rem;
+      margin-left: 0.3rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      #myPercent_outer {
+
+        #myPercent {
+          line-height: 1rem;
+          font-size: 1rem;
+          color: rgb(134, 134, 134);
+        }
+      }
+
+      .myProgress_outer {
+        border-radius: 0.5rem;
+        background-color: #ebeef5;
+
+        #myProgress {
+          height: .5rem;
+          border-radius: 0.5rem;
+          background-color: rgb(5, 217, 255);
+        }
+      }
+    }
+  }
+}
